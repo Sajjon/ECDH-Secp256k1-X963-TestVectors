@@ -60,7 +60,7 @@ def generate_vector():
 
 def main():
     vectors = []
-    for x in range(3):
+    for x in range(1000):
         vector = generate_vector()
         vectors.append(vector)
 
@@ -68,7 +68,8 @@ def main():
         "origin": "https://github.com/Sajjon/ECDH-Secp256k1-X963-TestVectors",
         "author": "Alexander Cyon",
         "description": "Generated using Python lib hazmat 'cryptography.hazmat'",
-        "numberOfVectors": len(vectors),
+        "numberOfTests": len(vectors),
+        "algorithm": "ECDH with SECP256k1 and x9.63 KDF",
         "generatedOn": datetime.now().strftime("%Y-%m-%d"),
         "vectors": vectors,
     }
