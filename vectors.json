@@ -1,0 +1,33 @@
+{
+    "origin": "https://github.com/Sajjon/ECDH-Secp256k1-X963-TestVectors",
+    "author": "Alexander Cyon",
+    "description": "Generated using Python lib hazmat 'cryptography.hazmat'",
+    "numberOfVectors": 3,
+    "generatedOn": "2023-03-16",
+    "vectors": [
+        {
+            "alicePrivateKey": "54daa4271b7c2412f1a624b2ad722745e6ff232dd81baeec2ec1e0eb8b4f9925",
+            "alicePublicKeyUncompressed": "04b2c02c4b0b710bb46ec9b6e9605964738ccf4658cae83c72887955cb60cce24fcbf62c11cd6f48efe0e24712f689ae2fdd65ab84b134f3901b380881b9386f7d",
+            "bobPrivateKey": "b5bbf1bfe6388487501c3e2c8de89a29700ecd65e605dc5c89d600ffe7b1912d",
+            "bobPublicKeyUncompressed": "04887c829b88191494b4951575d9e9e217702362b17b834b666b95b47f97ed3777aa7d1c1834c61b6051d382de3a98c4de78f3c2ddec6c4e2ebe8ec16ec8c1243a",
+            "ecdhSharedKey": "d692668649c5957c86e1b7e54d403ac4dfbbd36a66c5c87d3e60dd1dce26ce47",
+            "x963KDFOutput": "cc5f10b0c9e943724bdf1ac3d3eef2be9840f5859b0e1c4b9e9474e0f69304dd"
+        },
+        {
+            "alicePrivateKey": "805ee8845163506836d3e73717cb7957e195704623d8892109e0362aba8964d0",
+            "alicePublicKeyUncompressed": "046678e7bbe6fe54ab370d1593f816d68e62f3e79db2afc982888029b3fbd5297978fe3385db2a2008997f811235deca315c2fa34bb8f13b9bb702cc85c73e8f42",
+            "bobPrivateKey": "9d3a040603320e50c55284d2b93bf26cfbd87989470fc082076c09b4698b3fef",
+            "bobPublicKeyUncompressed": "045adce019aa368cd0bddf5274ed2777ffd3558f2ad981a5ccce8d177df2eb17425da632bc9b97b680a968810308cc3754e1087b0562c95a1bb6cdb428a2db8698",
+            "ecdhSharedKey": "7c6abe2d3167af44a578459194d70ca18a3115774c6ae5a5c3c2447b430a1a9d",
+            "x963KDFOutput": "011a11eb53adc842f8edf4e6dee56af67c9cfb8e70e886bb0a63e21285e971ae"
+        },
+        {
+            "alicePrivateKey": "1ef22404cca4aaf11aa1b0adaa331c35bc85aad4c11a322d8ea229b0d36ce42a",
+            "alicePublicKeyUncompressed": "04a983381d5377ebce31c89f8430509935d6cbf1c92710ccdc1d6b1487599be26bf104b7ed8c42aaafd447b64beddea55139ab2364bdef293414a72cf908998e08",
+            "bobPrivateKey": "68e6ce2f17261b3122858dc176e493da6e05f06422b48ca6b0a0f6ec429376ee",
+            "bobPublicKeyUncompressed": "04e56cb7e5534eefc42ae73c57867c221c7c98c52b4abaafd06885bc76b4f3e61bdae48945623f2700113db5b4cfb41d72cceeb3e8acd9ab54cff54e3f0820e623",
+            "ecdhSharedKey": "418e8d66d7aa5f01efa65d82edca2e8b643c09b13015af81296846c3f7462f09",
+            "x963KDFOutput": "26074c4973af843b4a07c80a72a7a0e9628d867b0f3afc3bf9a5358af6c58d3c"
+        }
+    ]
+}
